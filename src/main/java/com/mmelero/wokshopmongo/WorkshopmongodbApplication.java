@@ -1,4 +1,4 @@
-package com.mmelero;
+package com.mmelero.wokshopmongo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
