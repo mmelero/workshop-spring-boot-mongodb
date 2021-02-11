@@ -4,14 +4,14 @@ import java.io.Serializable;
 
 import com.mmelero.wokshopmongo.domain.User;
 
-public class UserDto implements Serializable {
+public class UserDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	private String id;
 	private String name;
 	private String email;
 	
-	public UserDto(User obj) {
+	public UserDTO(User obj) {
 		
 		id 	  = obj.getId();
 		name  = obj.getName();

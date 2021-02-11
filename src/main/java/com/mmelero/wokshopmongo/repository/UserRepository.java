@@ -9,5 +9,4 @@ import com.mmelero.wokshopmongo.domain.User;
 public interface UserRepository  extends MongoRepository<User, String>{
 
 	
-	
 }
